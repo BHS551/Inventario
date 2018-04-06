@@ -1,7 +1,12 @@
-{
-	"uno" : [{
+[
+	{	
 		"id": "1",
 		"nombre": "cerv. poker",
 		"precio": "1700"
-	}]
-}
+	}
+	{	
+		"id": "2",
+		"nombre": "cerv. aguila",
+		"precio": "1700"
+	}
+]

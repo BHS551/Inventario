@@ -1,17 +1,18 @@
 var React = require('react');
 var createReactClass = require('create-react-class');
 var DefaultLayout = require('./layout/master');
-var tabulator = require('./components/adaptabletable/index');
-var data = require('./data/data.json');
+import data from './data/data.json';
+import AdaptableTable from './components/adaptableTable';
 
 var IndexComponent = createReactClass({
 	render: function() {
 		return (
 			<DefaultLayout name={this.props.name}>
 				<div className="page-container">
+
 					<h1>Inventario</h1>
 					
-					<adaptabletable data={data}/>
+					<AdaptableTable data={data}/>
 
 				</div>
 			</DefaultLayout>
