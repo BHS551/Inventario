@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
+//obtiene la ruta /
 router.get('/', function (req, res) {
-	res.send("<h1>Inventario</h1>");
+	res.render('index', { name: 'titulo 1'});
 });
 
 module.exports = router;
